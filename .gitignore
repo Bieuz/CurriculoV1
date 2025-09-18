@@ -1,0 +1,56 @@
+# Arquivos e pastas a serem ignorados pelo Git
+
+# Dependências
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Arquivos de sistema
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Arquivos de IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Arquivos temporários
+*.tmp
+*.temp
+*.log
+
+# Arquivos de backup
+*.bak
+*.backup
+
+# Arquivos pessoais (descomente se necessário)
+# assets/images/perfil.jpg
+# assets/images/about.jpg
+# assets/curriculo.pdf
+
+# Arquivos de configuração local
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Cache
+.cache/
+.parcel-cache/
+
+# Build outputs
+dist/
+build/
+out/
+
+# Documentação gerada
+docs/_build/
